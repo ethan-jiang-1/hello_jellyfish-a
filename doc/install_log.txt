@@ -1,0 +1,45 @@
+Server Install log
+
+Ubuntun 14.04
+
+1) Install RVM 
+   11) install \curl -sSL https://get.rvm.io | bash -s stable --ruby
+
+    excution log as below: 
+	Searching for binary rubies, this might take some time.
+	Found remote file https://rvm.io/binaries/ubuntu/14.04/x86_64/ruby-2.1.2.tar.bz2
+	Checking requirements for ubuntu.
+	Installing requirements for ubuntu.
+	Updating system......
+	Installing required packages: g++, gcc, make, libc6-dev, libreadline6-dev, zlib1g-dev, libssl-dev, libyaml-dev, libsqlite3-dev, sqlite3, autoconf, libgdbm-dev, libncurses5-dev, automake, libtool, bison, pkg-config, libffi-dev.............................
+	Requirements installation successful.
+	ruby-2.1.2 - #configure
+	ruby-2.1.2 - #download
+	ruby-2.1.2 - #validate archive
+	ruby-2.1.2 - #extract
+	ruby-2.1.2 - #validate binary
+	ruby-2.1.2 - #setup
+	ruby-2.1.2 - #gemset created /home/azureuser/.rvm/gems/ruby-2.1.2@global
+	ruby-2.1.2 - #importing gemset /home/azureuser/.rvm/gemsets/global.gems....................................
+	ruby-2.1.2 - #generating global wrappers........
+	ruby-2.1.2 - #gemset created /home/azureuser/.rvm/gems/ruby-2.1.2
+	ruby-2.1.2 - #importing gemsetfile /home/azureuser/.rvm/gemsets/default.gems evaluated to empty gem list
+	ruby-2.1.2 - #generating default wrappers........
+	Creating alias default for ruby-2.1.2...
+
+   12) run source /home/azureuser/.rvm/scripts/rvm in all shell windows
+
+2) Install Lib and tools for Ruby/Rails
+
+
+3) Install Rails 
+
+
+4) Install Mysql
+
+
+5) Install Nginx
+
+
+6) Install Git
+
